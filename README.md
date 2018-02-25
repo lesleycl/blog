@@ -18,3 +18,5 @@ gatsby new gatsby-example-site
 - [ ] add navigation on Header
 
 - use `gatsby-starter-default`
+
+https://medium.freecodecamp.org/how-to-build-a-react-and-gatsby-powered-blog-in-about-10-minutes-625c35c06481
