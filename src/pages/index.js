@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from "react-helmet";
-
+import Tags from '../components/Tags'
 import '../styles/blog-listing.css';
 
 export default function Index({ data }) {
@@ -17,6 +17,7 @@ export default function Index({ data }) {
                 <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
               </h1>
               <h2>{post.frontmatter.date}</h2>
+              <Tags list={post.frontmatter.tags || []} />
               <p>{post.excerpt}</p>
             </div>
           );
@@ -35,6 +36,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            tags
             path
           }
         }

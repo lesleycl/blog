@@ -6,10 +6,10 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import Header from '../components/Header'
-import Sidebar from '../components/Sidebar'
 import '../styles/index.css'
 // import './index.scss'
 import '../styles/style-override.css';
+import favicon from '../imgs/favicon.ico';
 
 const TemplateWrapper = ({ children }) => (
   <div>

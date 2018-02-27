@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+ul li a {
+  text-decoration: none;
+  padding: 5px 7px;
+  border: 1px solid #b0b0b0;
+
+}
+ul li a:hover {
+  border: 1px solid #2d0ee6;
+  color: white;
+  background-color: #2d0ee6;
+  border-radius: 3px;
+}

@@ -5,7 +5,7 @@ import logo from '../../imgs/ms-icon-144x144.png'; // Tell Webpack this JS file 
 const Header = () => (
   <div
     style={{
-      background: '#f2f2f2',
+      background: '#f5f5f5',
       marginBottom: '1.45rem',
     }}
   >

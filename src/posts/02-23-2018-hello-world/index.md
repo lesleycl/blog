@@ -2,6 +2,7 @@
 path: "/first-post"
 date: "2017-07-12T17:12:33.962Z"
 title: "My First Gatsby Post"
+tags: ["tag3", "tag4"]
 ---
 
 Oooooh-weeee, my first blog post!
