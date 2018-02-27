@@ -1,0 +1,2 @@
+webpackJsonp([0x72398d712274],{371:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"My Second Gatsby Post",path:"/second-post"}}}]}},pathContext:{tag:"tag2"}}}});
+//# sourceMappingURL=path---tags-tag-2-6bc2bfe51cd460d38716.js.map
